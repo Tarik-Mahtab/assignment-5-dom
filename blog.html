@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+
+    <!-- Font Awesom  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+    <!-- TailWind CSS  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google-Front  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+
+.lexend{
+  font-family: "Lexend", serif;
+}
+    </style>
+
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="lexend">
+
+    <header class="w-11/12 mx-auto pt-3 backdrop-blur-2xl text-black sm:sticky top-0 z-50 p-4">
+
+        <nav class="md:flex items-center justify-between ">
+            <!-- Blog btn Start -->
+            <div class="mt-6">
+                <button id="home-btn" class="px-7 py-4 rounded-md text-black font-bold bg-lime-400"><a href="main.html">Home</a></button>
+            </div>
+               <!-- Blog btn end -->
+
+            <div class="mt-6 ">
+                <p class="flex items-center"><img src="assets/logo.png" alt=""> <span class="text-black font-bold px-5">Donate Bangladesh</span></p>
+            </div>
+
+            <!-- Main Balance Btn start -->
+            <div class="mt-6">
+                <p class="flex items-center gap-2"><img src="assets/coin.png" alt=""> <span >10000</span>BDT</p>
+            </div>
+            <!-- Main Balance Btn End  -->
+        </nav>
+            
+
+    </header>
+
+    <main  class="w-11/12 mx-auto ">
+        <h1 class="font-extrabold text-3xl pt-7 text-black my-8" >Important FAQ <i class="fa-solid fa-question"></i></h1>
+
+        <div class="sm:items-center border border-indigo-300 p-7 mb-10">
+
+            <div>
+                <h1 class="text-gray-950 text-2xl py-4">What is Document Object Model ( DOM ) ? </h1>
+                <p class="text-gray-600 py-3">
+                    The Document Object Model (DOM) is a programming interface representing an HTML/XML document as a tree structure, enabling dynamic interaction via JavaScript.</p>
+            </div>
+
+            <div>
+                <h1 class="text-gray-950 text-2xl py-4">How do you select on element form DOM ?</h1>
+                <p class="text-gray-600 py-3">To select an element from the DOM, use methods like document.getElementById("id"), document.querySelector("selector"), or document.getElementsByClassName("class").</p>
+            </div>
+
+            <div>
+                <h1 class="text-gray-950 text-2xl py-4">What is event delegation in the contex of the DOM , and why is it useful ?</h1>
+                <p class="text-gray-600 py-3">Event delegation is a technique where a single event listener is added to a parent element to handle events on its child elements. This works because events bubble up from child to parent in the DOM. It improves performance by reducing the number of event listeners, especially for dynamically added elements.</p>
+            </div>    
+                
+                
+            <div>
+                <h1 class="text-gray-950 text-2xl py-4">How do you manipulate an element's attributes and styles using the DOM ?</h1>
+                <p class="text-gray-600 py-3">To manipulate an element's attributes and styles using the DOM, you can use methods like setAttribute and getAttribute to modify attributes such as id, src, or title. For styling, you can access the style property and change CSS styles directly. For example, element.style.color = "red"; sets the text color to red, and element.setAttribute("title", "New Title"); updates the element's title attribute.</p>
+            </div>
+
+            <div></div>
+        </div>
+    </main>
+    
+<script src="/main.js"></script>
+</body>
+</html>
